@@ -1,0 +1,171 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: skyblue;
+}
+
+
+
+section{
+	width: 100%;
+	height: 100vh;
+}
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.container{
+	position: fixed;
+	background-color: skyblue;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0px;
+	
+
+}
+
+
+
+ul{
+	display: flex;
+	list-style: none;
+
+}
+
+
+
+li, h1{
+	margin: 12px;
+}
+
+
+a{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: black;
+}
+
+
+
+
+.showoff{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-left: 100px;
+	padding-right: 100px;
+	overflow: hidden;
+	
+	justify-content: center;
+	align-items: center;
+	margin: 12px;
+
+}
+
+
+
+
+
+
+.con{
+	background-color: grey;
+}
+
+
+
+#home{
+	padding: 250px;
+	background:grey; 
+}
+
+#about_us{
+	padding: 250px;
+	background:skyblue; 
+}
+#career{
+	padding: 250px;
+	background:pink; 
+}
+#login{
+	padding: 250px;
+	background:grey; 
+}
+#sign_in{
+	padding: 250px;
+	background:skyblue; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.helll{
+	background-color: skyblue;
+	width: 100%;
+}
+
+
+img{
+	width: 200px;
+	height: auto;
+	border-radius: 100px;
+}
+@media only screen and (max-width: 600px){
+
+.container{
+	display: inline-block;
+	
+	
+
+}
+
+}
+
+
+@media only screen and (max-width: 600px){
+
+ul{
+	display: inline-block;
+	font-size: 0.75rem;
+	
+	
+	
+
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+	{
+	
+
+}
+
+}
